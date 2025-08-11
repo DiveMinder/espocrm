@@ -1,0 +1,13 @@
+[build]
+builder = "dockerfile"
+
+[service]
+name = "espocrm"
+# Set env in Railway UI as variable references:
+# ESPOCRM_DATABASE_NAME     = ${MySQL.MYSQL_DATABASE}
+# ESPOCRM_DATABASE_HOST     = ${MySQL.MYSQLHOST}
+# ESPOCRM_DATABASE_PORT     = ${MySQL.MYSQLPORT}
+# ESPOCRM_DATABASE_USER     = ${MySQL.MYSQLUSER}
+# ESPOCRM_DATABASE_PASSWORD = ${MySQL.MYSQLPASSWORD}
+# DATABASE_DRIVER           = mysqli
+# ESPOCRM_SITE_URL          = https://<your-service>.up.railway.app
